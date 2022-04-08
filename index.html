@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel | Reserva Ahora</title>
+
+    <!-- Bootstrap CSS Links -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/EstiloIndex.css">
+
+</head>
+
+<body>
+
+    <header class="header">
+        <!-- Inicio barra de navegación-->
+        <div class="barra bg-success">
+            <div class="container">
+                <nav class="navbar bg-transparent navbar-dark navbar-expand-lg">
+                    <div class="container-fluid">
+                        <a class="navbar-brand text-uppercase" href="#">Reserva <span>Hoteles</span></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarText">
+                            <ul class="navbar-nav w-100 justify-content-end">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Nosotros</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Reservas</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown"
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Habitaciones
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                                        <li><a class="dropdown-item" href="#">Habitación1</a></li>
+                                        <li><a class="dropdown-item" href="#">Habitación2</a></li>
+                                        <li><a class="dropdown-item" href="#">Habitación3</a></li>
+                                    </ul>
+                                </li>
+
+                            </ul>
+
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="Imagenes/Slide1.jpg" class="d-block w-100" alt="...">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-md-4">
+                                <div class="carousel-caption d-none d-md-block bloque-info">
+                                    <h5 class="bg-success text-uppercase py-3">Disponible</h5>
+                                    <p>200.000 Por Noche</p>
+                                    <a href="#" class="btn btn-warning text-uppercase">Más Información</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="Imagenes/Slide2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2 class="display-4">Encuentra Habitaciones de Lujo</h2>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Inicio Seccion Nosotros -->
+    <section class="container sobre-nosotros mt-5" id="MasSobreNosotros">
+        <h2 class="text-center mb-5">Más Sobre Nosotros</h2>
+
+        <div class="row">
+
+            <!-- Inicio Bloque de Seguridad -->
+            <div class="col-sm-4 text-center">
+                <img src="Imagenes/icono_seguridad.jpg" alt="icono" class="img-fluid mb-4">
+                <h3 class="mb-3 text-uppercase">Seguridad</h3>
+                <p>
+                    Nuestro Hotel cuenta con garantías para las transacciones que se hagan cuando
+                    se solicite una reserva.
+                </p>
+            </div>
+            <!-- Fin Bloque de Seguridad -->
+
+            <!-- Inicio Bloque de Bajo Precio -->
+            <div class="col-sm-4 text-center">
+                <img src="Imagenes/icono_precio.jpg" alt="icono" class="img-fluid mb-4">
+                <h3 class="mb-3 text-uppercase">Los Mejores Precios</h3>
+                <p>
+                    Nuestro Hotel cuenta con garantías para las transacciones que se hagan cuando
+                    se solicite una reserva.
+                </p>
+            </div>
+            <!-- Fin Bloque de Bajo Precio -->
+
+            <!-- Inicio Bloque de Disponibilidad -->
+            <div class="col-sm-4 text-center">
+                <img src="Imagenes/icono_disponible.jpg" alt="icono" class="img-fluid mb-4">
+                <h3 class="mb-3 text-uppercase">Disponibilidad</h3>
+                <p>
+                    Nuestro Hotel cuenta con garantías para las transacciones que se hagan cuando
+                    se solicite una reserva.
+                </p>
+            </div>
+            <!-- Fin Bloque de Disponibilidad -->
+        </div>
+    </section>
+    <!-- Fin Seccion Nosotros -->
+
+    <section class="container">
+        <h2 class="text-center mb-5">Habitaciones Disponibles</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="Imagenes/Habitacion1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3 class="card-title">Habitacion Submarina</h3>
+                        <p class="card-text">Habitacion super confortable con sistema de ventilación, full equipada
+                            ubicada en el fondo del hotel para disfrutar una vista subacuatica.</p>
+                        <p class="card-precio">200,000</p>
+                        <a href="#" class="btn btn-warning d-block py-2 text-uppercase">¡Reserva Ahora!</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="Imagenes/Habitacion2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3 class="card-title">Comfortable Habitacion</h3>
+                        <p class="card-text">Habitacion Confortable y acogedora, no es una habitacion muy grande, esta
+                            preparada para huespedes que no pasen mucho tiempo en el hotel.</p>
+                        <p class="card-precio">200,000</p>
+                        <a href="#" class="btn btn-warning d-block py-2 text-uppercase">¡Reserva Ahora!</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="Imagenes/Habitacion3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3 class="card-title">Suite de Lujo Con Vista Al Mar</h3>
+                        <p class="card-text">Habitacion super confortable full equipada, cuenta con vista al mar ademas
+                            con gran espacio, esta ubicada en la parte superior del hotel.</p>
+                        <p class="card-precio">200,000</p>
+                        <a href="#" class="btn btn-warning d-block py-2 text-uppercase">¡Reserva Ahora!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Inicio Anuncio de Formulario con Imagen-->
+    <section class="encuentra mt-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col">
+                    <h3>¡Encuentra el hospedaje que te mereces!</h3>
+                    <p>
+                        Llena el formulario, reserva tu hotel y permitenos atenderte.
+                    </p>
+                    <a href="#" class="btn btn-warning text-uppercase py-2 mt-4" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">Reserva
+                        Ahora</a>
+                    <a href="clientes.html" class="btn btn-warning text-uppercase py-2 mt-4">Ver Clientes</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Fin Anuncio de Formulario con Imagen-->
+
+    <!-- Modal Formulario -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Formulario de registro</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <form action="" method="post" id="formularioRegistro">
+                    <div class="modal-body">
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <label for="Cedula" class="form-label">Cedula:</label>
+                                <input type="text" class="form-control" id="Cedula" placeholder="Cedula">
+                            </div>
+                            <div class="col-md-6 mt-2">
+                                <label for="Nombre" class="form-label">Nombre:</label>
+                                <input type="text" class="form-control" id="Nombre" placeholder="Nombre">
+                            </div>
+                            <div class="col-md-6 mt-2">
+                                <label for="Apellido" class="form-label">Apellido:</label>
+                                <input type="text" class="form-control" id="Apellido" placeholder="Apellido">
+                            </div>
+                            <div class="col-md-12 mt-2">
+                                <label for="Ciudad" class="form-label">Ciudad:</label>
+                                <input type="text" class="form-control" id="Ciudad" placeholder="Ciudad">
+                            </div>
+                            <div class="col-md-6 mt-2">
+                                <label for="Correo" class="form-label">Correo:</label>
+                                <input type="email" class="form-control" id="Correo" placeholder="Correo">
+                            </div>
+                            <div class="col-md-6 mt-2">
+                                <label for="Telefono" class="form-label">Telefono:</label>
+                                <input type="number" class="form-control" id="Telefono" placeholder="Telefono">
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        <button type="submit" class="btn btn-warning">Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer bg-dark mt-5 py-4">
+        <div class="container">
+            <div class="row align-items-lg-center text-center">
+                <ul class="nav col flex-column flex-md-row">
+                    <li class="nav-item"><a href="#" class="nav-link">Inicio</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Nosotros</a></li>
+                </ul>
+                <p class="copyright text-light col-md-4 text-center text-md-right m-0 mt-4 mt-md-0">
+                    2022 Diego Gómez Derechos Reservados
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS Links -->
+    <script src="js/app.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
