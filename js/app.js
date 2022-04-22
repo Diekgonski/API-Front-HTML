@@ -101,7 +101,15 @@ const crearCliente = async (cedula, nombre, apellido, ciudad, correo, telefono) 
 
   const data = await response.json();
 
-  console.log(data);
+  Swal.fire({
+    icon: "success",
+    title: "¡Cliente registrado!",
+    text: "Se registro el cliente correctamente",
+  });
+
+  setTimeout(() => {
+    window.location.replace("http://127.0.0.1:5500/clientes.html");
+  }, 2000);
 };
 
 formulario.addEventListener("submit", validarCliente);
